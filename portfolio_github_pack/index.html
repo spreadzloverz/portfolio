@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Xavier Talbot — Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="brand">
+      <b>XAVIER TALBOT</b>
+      <small>Concepteur–Réalisateur • Identité, espace, support réel</small>
+    </div>
+    <nav class="menu">
+      <a href="./index.html" class="active">Accueil</a>
+      <a href="./work.html" class="">Projets</a>
+      <a href="./services.html" class="">Méthode</a>
+      <a href="./about.html" class="">À propos</a>
+      <a href="./contact.html" class="">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div>
+    <h1 class="h-title">Concepteur–Réalisateur<br/>Pluridisciplinaire</h1>
+    <p class="h-sub">
+      Je conçois des identités, des espaces et des objets qui <b>tiennent dans la réalité</b> — du logotype à la fresque,
+      du support mobile à l’aménagement, avec le même souci du geste, de l’usage et de la faisabilité.
+    </p>
+    <div class="cta-row">
+      <a class="btn primary" href="./work.html">Voir les projets</a>
+      <a class="btn" href="./services.html">Méthode & pôles</a>
+    </div>
+    <div class="kicker">
+      <span>👁️ Vision</span>
+      <span>🧠 Cerveau</span>
+      <span>🖐️ Main</span>
+      <span>Culture urbaine & skate</span>
+    </div>
+  </div>
+  <div class="card">
+    <div class="thumb"></div>
+    <div class="meta">
+      <b>Accroche</b>
+      <span>Minimal maîtrisé • images en rythme • “bazar organisé”</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Démarche</h2>
+  <p>
+    Mon travail part du réel : un mur, un prénom, un skate, un lieu, une occasion.
+    Je ne sépare pas l’idée de sa mise en œuvre : usage, contraintes, durabilité.
+  </p>
+</section>
+
+<section class="section">
+  <h2>Projets</h2>
+  <div class="grid" data-project-grid></div>
+</section>
+
+<div class="footer">
+  <span>© <span id="y"></span> Xavier Talbot</span>
+  <span><a href="./contact.html">Me contacter</a> • GitHub Pages ready</span>
+</div>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+
+</main>
+<script src="./assets/js/site.js"></script>
+</body>
+</html>
